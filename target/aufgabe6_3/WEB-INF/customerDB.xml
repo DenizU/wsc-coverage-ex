@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ibis:customers
+    xmlns:ibis="http://dss.in.tum.de"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://dss.in.tum.de customerDB.xsd">
+    
+<!-- sample customer 1 -->
+<ibis:customer>
+    <ibis:id>1</ibis:id>
+    <ibis:surname>nachname_1</ibis:surname>
+    <ibis:name>name_1</ibis:name>
+    <ibis:phone>tel-nr_1</ibis:phone>
+    <ibis:email>email_1</ibis:email>
+    <ibis:addresses>
+        <ibis:primary>
+            <ibis:id>11</ibis:id>
+            <ibis:street>strasse_11</ibis:street>
+            <ibis:number>hausnr_11</ibis:number>
+            <ibis:postal>12345</ibis:postal>
+            <ibis:city>stadt_11</ibis:city>
+        </ibis:primary>
+        <ibis:address>
+            <ibis:id>12</ibis:id>
+            <ibis:street>strasse_12</ibis:street>
+            <ibis:number>hausnr_12</ibis:number>
+            <ibis:postal>23456</ibis:postal>
+            <ibis:city>stadt_12</ibis:city>
+        </ibis:address>
+    </ibis:addresses>
+</ibis:customer>
+
+<!-- sample customer 2 -->
+<ibis:customer>
+    <ibis:id>2</ibis:id>
+    <ibis:surname>nachname_2</ibis:surname>
+    <ibis:name>name_2</ibis:name>
+    <ibis:phone>tel-nr_2</ibis:phone>
+    <ibis:addresses>
+        <ibis:primary>
+            <ibis:id>21</ibis:id>
+            <ibis:street>strasse_21</ibis:street>
+            <ibis:number>hausnr_21</ibis:number>
+            <ibis:postal>34567</ibis:postal>
+            <ibis:city>stadt_21</ibis:city>
+        </ibis:primary>
+    </ibis:addresses>
+</ibis:customer>
+
+<!-- sample customer 3 -->
+<ibis:customer>
+    <ibis:id>3</ibis:id>
+    <ibis:surname>nachname_3</ibis:surname>
+    <ibis:name>name_3</ibis:name>
+    <ibis:phone>tel-nr_3</ibis:phone>
+    <ibis:email>email_3</ibis:email>
+    <ibis:addresses>
+        <ibis:primary>
+            <ibis:id>31</ibis:id>
+            <ibis:street>strasse_31</ibis:street>
+            <ibis:number>hausnr_31</ibis:number>
+            <ibis:postal>45678</ibis:postal>
+            <ibis:city>stadt_31</ibis:city>
+        </ibis:primary>
+        <ibis:address>
+            <ibis:id>32</ibis:id>
+            <ibis:street>strasse_32</ibis:street>
+            <ibis:number>hausnr_32</ibis:number>
+            <ibis:postal>56789</ibis:postal>
+            <ibis:city>stadt_32</ibis:city>
+        </ibis:address>
+        <ibis:address>
+            <ibis:id>33</ibis:id>
+            <ibis:street>strasse_33</ibis:street>
+            <ibis:number>hausnr_33</ibis:number>
+            <ibis:postal>67890</ibis:postal>
+            <ibis:city>stadt_33</ibis:city>
+        </ibis:address>
+        <ibis:address>
+            <ibis:id>34</ibis:id>
+            <ibis:street>strasse_34</ibis:street>
+            <ibis:number>hausnr_34</ibis:number>
+            <ibis:postal>78901</ibis:postal>
+            <ibis:city>stadt_34</ibis:city>
+        </ibis:address>
+    </ibis:addresses>
+</ibis:customer>
+
+<!-- sample customer 4 -->
+<ibis:customer>
+    <ibis:id>4</ibis:id>
+    <ibis:surname>nachname_4</ibis:surname>
+    <ibis:name>name_4</ibis:name>
+    <ibis:phone>tel-nr_4</ibis:phone>
+    <ibis:email>email_4</ibis:email>
+    <ibis:addresses>
+        <ibis:primary>
+            <ibis:id>41</ibis:id>
+            <ibis:street>strasse_41</ibis:street>
+            <ibis:number>hausnr_41</ibis:number>
+            <ibis:postal>89012</ibis:postal>
+            <ibis:city>stadt_41</ibis:city>
+        </ibis:primary>
+    </ibis:addresses>
+</ibis:customer>
+
+<!-- sample customer 5 -->
+<ibis:customer>
+    <ibis:id>5</ibis:id>
+    <ibis:surname>nachname_5</ibis:surname>
+    <ibis:name>name_5</ibis:name>
+    <ibis:phone>tel-nr_5</ibis:phone>
+    <ibis:email>email_5</ibis:email>
+    <ibis:addresses>
+        <ibis:primary>
+            <ibis:id>51</ibis:id>
+            <ibis:street>strasse_51</ibis:street>
+            <ibis:number>hausnr_51</ibis:number>
+            <ibis:postal>90123</ibis:postal>
+            <ibis:city>stadt_51</ibis:city>
+        </ibis:primary>
+        <ibis:address>
+            <ibis:id>52</ibis:id>
+            <ibis:street>strasse_52</ibis:street>
+            <ibis:number>hausnr_52</ibis:number>
+            <ibis:postal>01234</ibis:postal>
+            <ibis:city>stadt_52</ibis:city>
+        </ibis:address>
+    </ibis:addresses>
+</ibis:customer>
+
+</ibis:customers>

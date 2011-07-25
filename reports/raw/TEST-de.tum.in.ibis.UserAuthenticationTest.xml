@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="Den1z" name="de.tum.in.ibis.UserAuthenticationTest" tests="9" time="0.125" timestamp="2011-07-16T19:27:22">
+  <properties>
+    <property name="java.vendor" value="Sun Microsystems Inc." />
+    <property name="ant.file.ant task" value="C:\Users\Deniz\workspace\wsc\build.xml" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="eclipse.pdebuild.templates" value="/F:/eclipse/plugins/org.eclipse.pde.build_3.6.2.R36x_20110203/templates/" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Server Compiler" />
+    <property name="docs.dir" value="C:\Users\Deniz\workspace\wsc\docs" />
+    <property name="os.name" value="Windows 7" />
+    <property name="cobertura.home" value="H:\dev\cobertura-1.9.4.1" />
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.6.0_22\jre\lib\resources.jar;C:\Program Files\Java\jdk1.6.0_22\jre\lib\rt.jar;C:\Program Files\Java\jdk1.6.0_22\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.6.0_22\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.6.0_22\jre\lib\jce.jar;C:\Program Files\Java\jdk1.6.0_22\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.6.0_22\jre\classes" />
+    <property name="findbugs.home" value="H:\dev\findbugs-1.3.9" />
+    <property name="sun.desktop" value="windows" />
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc." />
+    <property name="ant.home" value="H:\dev\apache-ant-1.8.2" />
+    <property name="java.runtime.version" value="1.6.0_22-b04" />
+    <property name="user.name" value="Deniz" />
+    <property name="build.dir" value="C:\Users\Deniz\workspace\wsc\build\classes" />
+    <property name="user.language" value="de" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.6.0_22\jre\bin" />
+    <property name="reports.dir" value="C:\Users\Deniz\workspace\wsc\reports" />
+    <property name="ant.project.default-target" value="main" />
+    <property name="ant.project.name" value="ant task" />
+    <property name="java.version" value="1.6.0_22" />
+    <property name="user.timezone" value="" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.6.0_22\jre\lib\endorsed" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="50.0" />
+    <property name="user.country" value="DE" />
+    <property name="java.home" value="C:\Program Files\Java\jdk1.6.0_22\jre" />
+    <property name="dist.dir" value="C:\Users\Deniz\workspace\wsc\dist" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="ant.file" value="C:\Users\Deniz\workspace\wsc\build.xml" />
+    <property name="os.version" value="6.1" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.version" value="17.1-b03" />
+    <property name="user.variant" value="" />
+    <property name="ant.library.dir" value="H:\dev\apache-ant-1.8.2\lib" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="eclipse.pdebuild.scripts" value="/F:/eclipse/plugins/org.eclipse.pde.build_3.6.2.R36x_20110203/scripts/" />
+    <property name="user.home" value="C:\Users\Deniz" />
+    <property name="java.specification.vendor" value="Sun Microsystems Inc." />
+    <property name="test.dir" value="C:\Users\Deniz\workspace\wsc\src\test\java" />
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.6.0_22\jre\bin;.;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;F:\ImageMagick-6.6.7-Q16;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;F:\eclipse\javacc-5.0\bin;F:\Java\jre6\bin;C:\Program Files\Java\jdk1.6.0_22\bin;F:\QuickTime Alternative\QTSystem;F:\TortoiseSVN\bin;F:\texlive\2010\bin\win32;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Common Files\Autodesk Shared\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\Autodesk\Backburner\;C:\Program Files (x86)\Windows Live\Shared;H:\dev\apache-maven-2.2.1\bin;%JAVA_HOME%\bin;F:\SAS\Shared\Formats;F:\OpenVPN\bin;H:\dev\apache-ant-1.8.2/bin" />
+    <property name="java.vendor.url" value="http://java.sun.com/" />
+    <property name="java.vm.vendor" value="Sun Microsystems Inc." />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="ant.file.type.ant task" value="file" />
+    <property name="java.class.path" value="C:\Users\Deniz\workspace\wsc\build\instrumented;C:\Users\Deniz\workspace\wsc\build\classes;H:\dev\cobertura-1.9.4.1\cobertura.jar;H:\dev\cobertura-1.9.4.1\lib\asm-3.0.jar;H:\dev\cobertura-1.9.4.1\lib\asm-tree-3.0.jar;H:\dev\cobertura-1.9.4.1\lib\jakarta-oro-2.0.8.jar;H:\dev\cobertura-1.9.4.1\lib\log4j-1.2.9.jar;H:\dev\apache-ant-1.8.2\lib\servlet-api-2.5.jar;H:\dev\apache-ant-1.8.2\lib\junit.jar;H:\dev\apache-ant-1.8.2\lib\ant-launcher.jar;H:\dev\apache-ant-1.8.2\lib\ant.jar;H:\dev\apache-ant-1.8.2\lib\ant-junit.jar;H:\dev\apache-ant-1.8.2\lib\ant-junit4.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.8.2 compiled on December 20 2010" />
+    <property name="maven.repo" value="C:\Users\Deniz\.m2\repository" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="java.vm.specification.version" value="1.0" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="Service Pack 1" />
+    <property name="eclipse.pdebuild.home" value="/F:/eclipse/plugins/org.eclipse.pde.build_3.6.2.R36x_20110203/./" />
+    <property name="java.io.tmpdir" value="C:\Users\Deniz\AppData\Local\Temp\" />
+    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi" />
+    <property name="os.arch" value="amd64" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="instrumented.dir" value="C:\Users\Deniz\workspace\wsc\build\instrumented" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.6.0_22\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+    <property name="user.dir" value="C:\Users\Deniz\workspace\wsc" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="basedir" value="C:\Users\Deniz\workspace\wsc" />
+    <property name="ant.java.version" value="1.6" />
+    <property name="ant.core.lib" value="H:\dev\apache-ant-1.8.2\lib\ant.jar" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="java.specification.version" value="1.6" />
+    <property name="src.dir" value="C:\Users\Deniz\workspace\wsc\src\main\java" />
+    <property name="ant.project.invoked-targets" value="main" />
+  </properties>
+  <testcase classname="de.tum.in.ibis.UserAuthenticationTest" name="testExistingUser" time="0.022" />
+  <testcase classname="de.tum.in.ibis.UserAuthenticationTest" name="testNonExistingUser" time="0.0070" />
+  <testcase classname="de.tum.in.ibis.UserAuthenticationTest" name="testAddSimpleUser" time="0.0060" />
+  <testcase classname="de.tum.in.ibis.UserAuthenticationTest" name="testAddEmptyUser" time="0.0040" />
+  <testcase classname="de.tum.in.ibis.UserAuthenticationTest" name="testAddUserEmptyPass" time="0.0040" />
+  <testcase classname="de.tum.in.ibis.UserAuthenticationTest" name="testRemoveExistingUser" time="0.0030" />
+  <testcase classname="de.tum.in.ibis.UserAuthenticationTest" name="testRemoveNonExistingUser" time="0.0030" />
+  <testcase classname="de.tum.in.ibis.UserAuthenticationTest" name="testValidUserCredentials" time="0.0040" />
+  <testcase classname="de.tum.in.ibis.UserAuthenticationTest" name="testInvalidUserCredentials" time="0.0020" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

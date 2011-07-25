@@ -1,0 +1,28 @@
+/*
+static test users in the form 'username':'password'
+*/
+
+user0:pass0
+user1:pass1
+user2:pass2
+user3:pass3
+user4:pass4
+user5:pass5
+user6:pass6
+user7:pass7
+user8:pass8
+user9:pass9
+
+
+/*
+User user0 = new User("user0", "pass0"); this.addUser( user0 );
+User user1 = new User("user1", "pass1"); this.addUser( user1 );
+User user2 = new User("user2", "pass2"); this.addUser( user2 );
+User user3 = new User("user3", "pass3"); this.addUser( user3 );
+User user4 = new User("user4", "pass4"); this.addUser( user4 );
+User user5 = new User("user5", "pass5"); this.addUser( user5 );
+User user6 = new User("user6", "pass6"); this.addUser( user6 );
+User user7 = new User("user7", "pass7"); this.addUser( user7 );
+User user8 = new User("user8", "pass8"); this.addUser( user8 );
+User user9 = new User("user9", "pass9"); this.addUser( user9 );
+*/

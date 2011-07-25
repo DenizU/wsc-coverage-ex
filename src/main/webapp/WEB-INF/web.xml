@@ -1,0 +1,50 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+    version="2.4">
+  <display-name>Archetype Created Web Application</display-name>
+  <filter>
+  	<filter-name>SessionFilter</filter-name>
+  	<filter-class>de.tum.in.ibis.SessionFilter</filter-class>
+  	<init-param>
+  		<param-name>allowed-urls</param-name>
+  		<param-value>/index.jsp,/sessionerror.jsp,/LoginController</param-value>
+  	</init-param>
+  </filter>
+  <filter-mapping>
+  	<filter-name>SessionFilter</filter-name>
+  	<url-pattern>/*</url-pattern>
+  </filter-mapping>
+  <servlet>
+  	<servlet-name>LoginController</servlet-name>
+  	<servlet-class>de.tum.in.ibis.LoginController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ShowBlogController</servlet-name>
+  	<servlet-class>de.tum.in.ibis.ShowBlogController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>CreateBlogEntryController</servlet-name>
+  	<servlet-class>de.tum.in.ibis.CreateBlogEntryController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>LoginController</servlet-name>
+  	<url-pattern>/LoginController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ShowBlogController</servlet-name>
+  	<url-pattern>/ShowBlogController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>CreateBlogEntryController</servlet-name>
+  	<url-pattern>/CreateBlogEntryController</url-pattern>
+  </servlet-mapping>
+  <error-page>
+  	<exception-type>de.tum.in.ibis.UserAuthenticationException</exception-type>
+  	<location>/error.jsp</location>
+  </error-page>
+</web-app>

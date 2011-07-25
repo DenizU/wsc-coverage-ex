@@ -1,0 +1,849 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.4">
+<file name="C:\Users\Deniz\workspace\wsc\src\main\java\de\tum\in\ibis\Blog.java">
+<error line="0" severity="error" message="Missing package-info.java file." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="6" severity="info" message="=/**" source="com.puppycrawl.tools.checkstyle.checks.javadoc.WriteTagCheck"/>
+<error line="7" severity="info" message="=* This class allows the creation of Blog objects." source="com.puppycrawl.tools.checkstyle.checks.javadoc.WriteTagCheck"/>
+<error line="8" severity="info" message="=* Each object hast its own list of blog-entries" source="com.puppycrawl.tools.checkstyle.checks.javadoc.WriteTagCheck"/>
+<error line="9" severity="info" message="=* and manages operations to add, remove or update entries." source="com.puppycrawl.tools.checkstyle.checks.javadoc.WriteTagCheck"/>
+<error line="10" severity="info" message="=* @author Deniz" source="com.puppycrawl.tools.checkstyle.checks.javadoc.WriteTagCheck"/>
+<error line="11" severity="info" message="=*" source="com.puppycrawl.tools.checkstyle.checks.javadoc.WriteTagCheck"/>
+<error line="12" severity="info" message="=*/" source="com.puppycrawl.tools.checkstyle.checks.javadoc.WriteTagCheck"/>
+<error line="13" severity="error" message="In der Klassen-Dokumentation fehlt ein @version-Tag." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="13" column="14" severity="error" message="&apos;Blog&apos; entspricht nicht dem Muster &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.TypeNameCheck"/>
+<error line="15" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="15" column="13" severity="error" message="Deklaration von Variablen, Rückgabewerten oder Parametern des Typs &apos;TreeSet&apos; is nicht erlaubt." source="com.puppycrawl.tools.checkstyle.checks.coding.IllegalTypeCheck"/>
+<error line="17" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="21" severity="error" message="Kommentare und Code sollten nicht in einer Zeile gemischt werden." source="com.puppycrawl.tools.checkstyle.checks.TrailingCommentCheck"/>
+<error line="25" severity="error" message="Zeile länger als 80 Zeichen" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="27" column="24" severity="error" message="Der Parameter newEntry sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="28" column="12" severity="error" message="Nach &apos;for&apos; folgt kein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="28" column="13" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="28" column="48" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="29" severity="error" message="Kommentare und Code sollten nicht in einer Zeile gemischt werden." source="com.puppycrawl.tools.checkstyle.checks.TrailingCommentCheck"/>
+<error line="30" column="17" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="30" column="41" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="30" column="60" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="30" column="62" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="31" severity="error" message="Zeile länger als 80 Zeichen" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="31" column="126" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="32" column="13" severity="error" message="&apos;}&apos; sollte in derselben Zeile stehen." source="com.puppycrawl.tools.checkstyle.checks.blocks.RightCurlyCheck"/>
+<error line="33" severity="error" message="Kommentare und Code sollten nicht in einer Zeile gemischt werden." source="com.puppycrawl.tools.checkstyle.checks.TrailingCommentCheck"/>
+<error line="34" column="22" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="34" column="47" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="34" column="68" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="35" severity="error" message="Zeile länger als 80 Zeichen" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="35" column="128" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="38" severity="error" message="Kommentare und Code sollten nicht in einer Zeile gemischt werden." source="com.puppycrawl.tools.checkstyle.checks.TrailingCommentCheck"/>
+<error line="39" column="30" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="39" column="39" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="43" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="43" column="27" severity="error" message="Der Parameter e sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="44" column="33" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="44" column="35" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="48" severity="error" message="Kommentare und Code sollten nicht in einer Zeile gemischt werden." source="com.puppycrawl.tools.checkstyle.checks.TrailingCommentCheck"/>
+<error line="54" column="27" severity="error" message="Der Parameter e sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="55" column="12" severity="error" message="Nach &apos;for&apos; folgt kein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="55" column="13" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="55" column="48" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="55" column="50" severity="error" message="Vor &apos;{&apos; befindet sich kein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="56" column="17" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="56" column="37" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="56" column="53" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="56" column="55" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="57" column="41" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="57" column="47" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="58" column="38" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="58" column="40" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="62" severity="error" message="Zeile länger als 80 Zeichen" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="65" severity="error" message="Der erste Satz sollte mit einem Punkt abschließen." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="65" severity="error" message="Kommentare und Code sollten nicht in einer Zeile gemischt werden." source="com.puppycrawl.tools.checkstyle.checks.TrailingCommentCheck"/>
+<error line="69" column="12" severity="error" message="Deklaration von Variablen, Rückgabewerten oder Parametern des Typs &apos;TreeSet&apos; is nicht erlaubt." source="com.puppycrawl.tools.checkstyle.checks.coding.IllegalTypeCheck"/>
+<error line="73" severity="error" message="Kommentare und Code sollten nicht in einer Zeile gemischt werden." source="com.puppycrawl.tools.checkstyle.checks.TrailingCommentCheck"/>
+<error line="79" column="37" severity="error" message="Der Parameter uuid sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="80" column="44" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="81" column="17" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="81" column="37" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="81" column="42" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="81" column="44" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="85" severity="error" message="Zeile länger als 80 Zeichen" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="88" severity="error" message="Kommentare und Code sollten nicht in einer Zeile gemischt werden." source="com.puppycrawl.tools.checkstyle.checks.TrailingCommentCheck"/>
+<error line="94" column="38" severity="error" message="Der Parameter title sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="95" column="44" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="96" column="17" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="96" column="38" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="96" column="44" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="96" column="46" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="100" severity="error" message="Zeile länger als 80 Zeichen" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="103" severity="error" message="Kommentare und Code sollten nicht in einer Zeile gemischt werden." source="com.puppycrawl.tools.checkstyle.checks.TrailingCommentCheck"/>
+<error line="104" column="5" severity="error" message="Anzahl ausführbarer Statements ist 31 (Obergrenze ist 30)." source="com.puppycrawl.tools.checkstyle.checks.sizes.ExecutableStatementCountCheck"/>
+<error line="104" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="106" severity="error" message="Zeile länger als 80 Zeichen" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="106" column="23" severity="error" message="Variable &apos;e0&apos; sollte als final deklariert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="106" column="58" severity="error" message="Der String &quot;authorA&quot; wird in dieser Datei 5 mal benutzt." source="com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"/>
+<error line="106" column="102" severity="error" message="Only one statement per line allowed." source="com.puppycrawl.tools.checkstyle.checks.coding.OneStatementPerLineCheck"/>
+<error line="106" column="103" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="106" column="106" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="107" column="26" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="107" column="27" severity="error" message="&apos;10&apos; sollte durch eine Konstante definiert sein." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="107" column="29" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="108" severity="error" message="Zeile länger als 80 Zeichen" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="108" column="23" severity="error" message="Variable &apos;e1&apos; sollte als final deklariert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="108" column="58" severity="error" message="Der String &quot;authorB&quot; wird in dieser Datei 2 mal benutzt." source="com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"/>
+<error line="108" column="102" severity="error" message="Only one statement per line allowed." source="com.puppycrawl.tools.checkstyle.checks.coding.OneStatementPerLineCheck"/>
+<error line="108" column="103" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="108" column="106" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="109" column="26" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="109" column="27" severity="error" message="&apos;10&apos; sollte durch eine Konstante definiert sein." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="109" column="29" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="110" severity="error" message="Zeile länger als 80 Zeichen" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="110" column="23" severity="error" message="Variable &apos;e2&apos; sollte als final deklariert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="110" column="58" severity="error" message="Der String &quot;authorC&quot; wird in dieser Datei 3 mal benutzt." source="com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"/>
+<error line="110" column="102" severity="error" message="Only one statement per line allowed." source="com.puppycrawl.tools.checkstyle.checks.coding.OneStatementPerLineCheck"/>
+<error line="110" column="103" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="110" column="106" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="111" column="26" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="111" column="27" severity="error" message="&apos;10&apos; sollte durch eine Konstante definiert sein." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="111" column="29" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="112" severity="error" message="Zeile länger als 80 Zeichen" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="112" column="23" severity="error" message="Variable &apos;e3&apos; sollte als final deklariert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="112" column="102" severity="error" message="Only one statement per line allowed." source="com.puppycrawl.tools.checkstyle.checks.coding.OneStatementPerLineCheck"/>
+<error line="112" column="103" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="112" column="106" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="113" column="26" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="113" column="27" severity="error" message="&apos;10&apos; sollte durch eine Konstante definiert sein." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="113" column="29" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="114" severity="error" message="Zeile länger als 80 Zeichen" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="114" column="23" severity="error" message="Variable &apos;e4&apos; sollte als final deklariert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="114" column="102" severity="error" message="Only one statement per line allowed." source="com.puppycrawl.tools.checkstyle.checks.coding.OneStatementPerLineCheck"/>
+<error line="114" column="103" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="114" column="106" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="115" column="26" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="115" column="27" severity="error" message="&apos;10&apos; sollte durch eine Konstante definiert sein." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="115" column="29" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="116" severity="error" message="Zeile länger als 80 Zeichen" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="116" column="23" severity="error" message="Variable &apos;e5&apos; sollte als final deklariert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="116" column="102" severity="error" message="Only one statement per line allowed." source="com.puppycrawl.tools.checkstyle.checks.coding.OneStatementPerLineCheck"/>
+<error line="116" column="103" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="116" column="106" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="117" column="26" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="117" column="27" severity="error" message="&apos;10&apos; sollte durch eine Konstante definiert sein." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="117" column="29" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="118" severity="error" message="Zeile länger als 80 Zeichen" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="118" column="23" severity="error" message="Variable &apos;e6&apos; sollte als final deklariert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="118" column="102" severity="error" message="Only one statement per line allowed." source="com.puppycrawl.tools.checkstyle.checks.coding.OneStatementPerLineCheck"/>
+<error line="118" column="103" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="118" column="106" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="119" column="26" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="119" column="27" severity="error" message="&apos;10&apos; sollte durch eine Konstante definiert sein." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="119" column="29" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="120" severity="error" message="Zeile länger als 80 Zeichen" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="120" column="23" severity="error" message="Variable &apos;e7&apos; sollte als final deklariert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="120" column="102" severity="error" message="Only one statement per line allowed." source="com.puppycrawl.tools.checkstyle.checks.coding.OneStatementPerLineCheck"/>
+<error line="120" column="103" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="120" column="106" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="121" column="26" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="121" column="27" severity="error" message="&apos;10&apos; sollte durch eine Konstante definiert sein." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="121" column="29" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="122" severity="error" message="Zeile länger als 80 Zeichen" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="122" column="23" severity="error" message="Variable &apos;e8&apos; sollte als final deklariert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="122" column="102" severity="error" message="Only one statement per line allowed." source="com.puppycrawl.tools.checkstyle.checks.coding.OneStatementPerLineCheck"/>
+<error line="122" column="103" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="122" column="106" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="123" column="26" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="123" column="27" severity="error" message="&apos;10&apos; sollte durch eine Konstante definiert sein." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="123" column="29" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="124" severity="error" message="Zeile länger als 80 Zeichen" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="124" column="23" severity="error" message="Variable &apos;e9&apos; sollte als final deklariert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="124" column="102" severity="error" message="Only one statement per line allowed." source="com.puppycrawl.tools.checkstyle.checks.coding.OneStatementPerLineCheck"/>
+<error line="124" column="103" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="124" column="106" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+</file>
+<file name="C:\Users\Deniz\workspace\wsc\src\main\java\de\tum\in\ibis\BlogEntry.java">
+<error line="6" severity="info" message="=/**" source="com.puppycrawl.tools.checkstyle.checks.javadoc.WriteTagCheck"/>
+<error line="7" severity="info" message="=* This class creates BlogEntry objects that can be used by a blog object." source="com.puppycrawl.tools.checkstyle.checks.javadoc.WriteTagCheck"/>
+<error line="8" severity="info" message="=* @author Deniz" source="com.puppycrawl.tools.checkstyle.checks.javadoc.WriteTagCheck"/>
+<error line="9" severity="info" message="=*" source="com.puppycrawl.tools.checkstyle.checks.javadoc.WriteTagCheck"/>
+<error line="10" severity="info" message="=*/" source="com.puppycrawl.tools.checkstyle.checks.javadoc.WriteTagCheck"/>
+<error line="11" severity="error" message="In der Klassen-Dokumentation fehlt ein @version-Tag." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="11" column="14" severity="error" message="&apos;BlogEntry&apos; entspricht nicht dem Muster &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.TypeNameCheck"/>
+<error line="11" column="56" severity="error" message="&apos;&gt;&apos; is followed by an illegal character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.GenericWhitespaceCheck"/>
+<error line="11" column="56" severity="error" message="Vor &apos;{&apos; befindet sich kein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="13" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="13" column="20" severity="error" message="&apos;UUID&apos; entspricht nicht dem Muster &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+<error line="14" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="15" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="16" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="17" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="19" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="22" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="22" column="22" severity="error" message="Der Parameter title sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="22" column="29" severity="error" message="&apos;title&apos; verbirgt ein Feld." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="22" column="36" severity="error" message="Der Parameter author sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="22" column="43" severity="error" message="&apos;author&apos; verbirgt ein Feld." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="22" column="51" severity="error" message="Der Parameter content sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="22" column="58" severity="error" message="&apos;content&apos; verbirgt ein Feld." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="23" severity="error" message="Kommentare und Code sollten nicht in einer Zeile gemischt werden." source="com.puppycrawl.tools.checkstyle.checks.TrailingCommentCheck"/>
+<error line="26" severity="error" message="Kommentare und Code sollten nicht in einer Zeile gemischt werden." source="com.puppycrawl.tools.checkstyle.checks.TrailingCommentCheck"/>
+<error line="27" column="9" severity="error" message="Dereferenzierung der Instanzvariable &apos;df&apos; muss über &quot;this.&quot; erfolgen." source="com.puppycrawl.tools.checkstyle.checks.coding.RequireThisCheck"/>
+<error line="30" severity="error" message="Kommentare und Code sollten nicht in einer Zeile gemischt werden." source="com.puppycrawl.tools.checkstyle.checks.TrailingCommentCheck"/>
+<error line="36" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="37" column="16" severity="error" message="Dereferenzierung der Instanzvariable &apos;UUID&apos; muss über &quot;this.&quot; erfolgen." source="com.puppycrawl.tools.checkstyle.checks.coding.RequireThisCheck"/>
+<error line="40" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="40" column="25" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="40" column="26" severity="error" message="Der Parameter uuid sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="40" column="37" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="41" column="9" severity="error" message="Dereferenzierung der Instanzvariable &apos;UUID&apos; muss über &quot;this.&quot; erfolgen." source="com.puppycrawl.tools.checkstyle.checks.coding.RequireThisCheck"/>
+<error line="44" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="45" column="16" severity="error" message="Dereferenzierung der Instanzvariable &apos;title&apos; muss über &quot;this.&quot; erfolgen." source="com.puppycrawl.tools.checkstyle.checks.coding.RequireThisCheck"/>
+<error line="48" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="48" column="26" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="48" column="27" severity="error" message="Der Parameter title sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="48" column="34" severity="error" message="&apos;title&apos; verbirgt ein Feld." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="48" column="39" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="52" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="53" column="16" severity="error" message="Dereferenzierung der Instanzvariable &apos;creationDate&apos; muss über &quot;this.&quot; erfolgen." source="com.puppycrawl.tools.checkstyle.checks.coding.RequireThisCheck"/>
+<error line="56" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="56" column="33" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="56" column="34" severity="error" message="Der Parameter creationDate sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="56" column="39" severity="error" message="&apos;creationDate&apos; verbirgt ein Feld." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="56" column="51" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="60" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="61" column="16" severity="error" message="Dereferenzierung der Instanzvariable &apos;df&apos; muss über &quot;this.&quot; erfolgen." source="com.puppycrawl.tools.checkstyle.checks.coding.RequireThisCheck"/>
+<error line="61" column="26" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="61" column="27" severity="error" message="Dereferenzierung der Instanzvariable &apos;creationDate&apos; muss über &quot;this.&quot; erfolgen." source="com.puppycrawl.tools.checkstyle.checks.coding.RequireThisCheck"/>
+<error line="61" column="39" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="64" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="65" column="16" severity="error" message="Dereferenzierung der Instanzvariable &apos;author&apos; muss über &quot;this.&quot; erfolgen." source="com.puppycrawl.tools.checkstyle.checks.coding.RequireThisCheck"/>
+<error line="68" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="68" column="27" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="68" column="28" severity="error" message="Der Parameter author sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="68" column="35" severity="error" message="&apos;author&apos; verbirgt ein Feld." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="68" column="41" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="72" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="73" column="16" severity="error" message="Dereferenzierung der Instanzvariable &apos;content&apos; muss über &quot;this.&quot; erfolgen." source="com.puppycrawl.tools.checkstyle.checks.coding.RequireThisCheck"/>
+<error line="76" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="76" column="28" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="76" column="29" severity="error" message="Der Parameter content sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="76" column="36" severity="error" message="&apos;content&apos; verbirgt ein Feld." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="76" column="43" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="81" column="26" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="81" column="27" severity="error" message="Der Parameter entry sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="81" column="42" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="82" severity="error" message="Kommentare und Code sollten nicht in einer Zeile gemischt werden." source="com.puppycrawl.tools.checkstyle.checks.TrailingCommentCheck"/>
+<error line="83" column="11" severity="error" message="Nach &apos;if&apos; folgt kein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="83" column="36" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="83" column="60" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="85" column="18" severity="error" message="Nach &apos;if&apos; folgt kein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="85" column="44" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="85" column="68" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+</file>
+<file name="C:\Users\Deniz\workspace\wsc\src\main\java\de\tum\in\ibis\CreateBlogEntryController.java">
+<error line="13" severity="error" message="In der Klassen-Dokumentation fehlt ein -Tag." source="com.puppycrawl.tools.checkstyle.checks.javadoc.WriteTagCheck"/>
+<error line="13" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="13" column="1" severity="error" message="Die Klasse sollte einen Konstruktor definieren." source="com.puppycrawl.tools.checkstyle.checks.coding.MissingCtorCheck"/>
+<error line="13" column="14" severity="error" message="&apos;CreateBlogEntryController&apos; entspricht nicht dem Muster &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.TypeNameCheck"/>
+<error line="14" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="14" column="10" severity="error" message="Variable &apos;blog&apos; muss private sein." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="15" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="15" column="20" severity="error" message="Variable &apos;ctx&apos; muss private sein." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="17" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="20" column="5" severity="error" message="Anzahl ausführbarer Statements ist 38 (Obergrenze ist 30)." source="com.puppycrawl.tools.checkstyle.checks.sizes.ExecutableStatementCountCheck"/>
+<error line="20" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="20" column="27" severity="error" message="Der Parameter req sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="20" column="51" severity="error" message="Der Parameter resp sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="20" column="75" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="21" severity="error" message="method def throws bei Einrücktiefe 4 nicht an korrekter Einrücktiefe 8" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="21" column="5" severity="error" message="Anzahl der throws-Anweisungen ist 2 (Obergrenze ist 1)." source="com.puppycrawl.tools.checkstyle.checks.design.ThrowsCountCheck"/>
+<error line="22" column="9" severity="error" message="Dereferenzierung der Instanzvariable &apos;ctx&apos; muss über &quot;this.&quot; erfolgen." source="com.puppycrawl.tools.checkstyle.checks.coding.RequireThisCheck"/>
+<error line="23" column="13" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="23" column="14" severity="error" message="Dereferenzierung der Instanzvariable &apos;ctx&apos; muss über &quot;this.&quot; erfolgen." source="com.puppycrawl.tools.checkstyle.checks.coding.RequireThisCheck"/>
+<error line="23" column="31" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="23" column="32" severity="error" message="Der String &quot;blog&quot; wird in dieser Datei 3 mal benutzt." source="com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"/>
+<error line="23" column="38" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="23" column="71" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="24" column="32" severity="error" message="Dereferenzierung der Instanzvariable &apos;ctx&apos; muss über &quot;this.&quot; erfolgen." source="com.puppycrawl.tools.checkstyle.checks.coding.RequireThisCheck"/>
+<error line="24" column="49" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="24" column="56" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="27" column="13" severity="error" message="Dereferenzierung der Instanzvariable &apos;ctx&apos; muss über &quot;this.&quot; erfolgen." source="com.puppycrawl.tools.checkstyle.checks.coding.RequireThisCheck"/>
+<error line="27" column="30" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="27" column="48" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="30" severity="error" message="Kommentare und Code sollten nicht in einer Zeile gemischt werden." source="com.puppycrawl.tools.checkstyle.checks.TrailingCommentCheck"/>
+<error line="33" column="21" severity="error" message="Variable &apos;session&apos; sollte als final deklariert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="34" column="13" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="34" column="29" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="35" column="55" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="35" column="66" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="36" column="48" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="36" column="55" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="38" severity="error" message="Kommentare und Code sollten nicht in einer Zeile gemischt werden." source="com.puppycrawl.tools.checkstyle.checks.TrailingCommentCheck"/>
+<error line="43" severity="error" message="Kommentare und Code sollten nicht in einer Zeile gemischt werden." source="com.puppycrawl.tools.checkstyle.checks.TrailingCommentCheck"/>
+<error line="44" column="16" severity="error" message="Variable &apos;titleValue&apos; sollte als final deklariert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="44" column="46" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="44" column="54" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="45" column="16" severity="error" message="Variable &apos;contentValue&apos; sollte als final deklariert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="45" column="48" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="45" column="58" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="47" severity="error" message="Kommentare und Code sollten nicht in einer Zeile gemischt werden." source="com.puppycrawl.tools.checkstyle.checks.TrailingCommentCheck"/>
+<error line="47" severity="error" message="Zeile länger als 80 Zeichen" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="48" column="9" severity="error" message="Jede Variablendeklaration muss in einer eigenen Anweisung erfolgen." source="com.puppycrawl.tools.checkstyle.checks.coding.MultipleVariableDeclarationsCheck"/>
+<error line="48" column="28" severity="error" message="Variable &apos;authorError&apos; sollte als final deklariert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="49" column="35" severity="error" message="Innere Zuweisungen sollten vermieden werden." source="com.puppycrawl.tools.checkstyle.checks.coding.InnerAssignmentCheck"/>
+<error line="49" column="47" severity="error" message="Innere Zuweisungen sollten vermieden werden." source="com.puppycrawl.tools.checkstyle.checks.coding.InnerAssignmentCheck"/>
+<error line="51" column="13" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="51" column="31" severity="error" message="String literal expressions should be on the left side of an equals comparison." source="com.puppycrawl.tools.checkstyle.checks.coding.EqualsAvoidNullCheck"/>
+<error line="51" column="32" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="51" column="35" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="51" column="37" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="52" column="26" severity="error" message="Der String &quot;true&quot; wird in dieser Datei 6 mal benutzt." source="com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"/>
+<error line="55" column="13" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="55" column="33" severity="error" message="String literal expressions should be on the left side of an equals comparison." source="com.puppycrawl.tools.checkstyle.checks.coding.EqualsAvoidNullCheck"/>
+<error line="55" column="34" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="55" column="37" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="55" column="39" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="59" column="30" severity="error" message="String literal expressions should be on the left side of an equals comparison." source="com.puppycrawl.tools.checkstyle.checks.coding.EqualsAvoidNullCheck"/>
+<error line="59" column="31" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="59" column="38" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="59" column="40" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="60" severity="error" message="Zeile länger als 80 Zeichen" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="60" column="23" severity="error" message="Variable &apos;blogEntry&apos; sollte als final deklariert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="61" column="27" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="61" column="37" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="66" severity="error" message="Kommentare und Code sollten nicht in einer Zeile gemischt werden." source="com.puppycrawl.tools.checkstyle.checks.TrailingCommentCheck"/>
+<error line="67" column="13" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="67" column="30" severity="error" message="String literal expressions should be on the left side of an equals comparison." source="com.puppycrawl.tools.checkstyle.checks.coding.EqualsAvoidNullCheck"/>
+<error line="67" column="31" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="67" column="38" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="67" column="40" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="68" column="30" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="68" column="55" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="69" column="30" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="69" column="59" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="70" column="30" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="70" column="53" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="72" column="30" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="72" column="55" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="73" column="30" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="73" column="60" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="75" severity="error" message="Kommentare und Code sollten nicht in einer Zeile gemischt werden." source="com.puppycrawl.tools.checkstyle.checks.TrailingCommentCheck"/>
+<error line="76" severity="error" message="Zeile länger als 80 Zeichen" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="76" column="31" severity="error" message="Variable &apos;dispatcher&apos; sollte als final deklariert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="76" column="44" severity="error" message="Dereferenzierung der Instanzvariable &apos;ctx&apos; muss über &quot;this.&quot; erfolgen." source="com.puppycrawl.tools.checkstyle.checks.coding.RequireThisCheck"/>
+<error line="76" column="69" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="76" column="85" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="76" column="103" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="76" column="105" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="77" column="17" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="77" column="36" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="78" column="36" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="78" column="46" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="82" severity="error" message="Kommentare und Code sollten nicht in einer Zeile gemischt werden." source="com.puppycrawl.tools.checkstyle.checks.TrailingCommentCheck"/>
+<error line="83" severity="error" message="Zeile länger als 80 Zeichen" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="83" column="31" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="83" column="55" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="83" column="78" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="83" column="80" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+</file>
+<file name="C:\Users\Deniz\workspace\wsc\src\main\java\de\tum\in\ibis\InvalidBlogOperationException.java">
+<error line="3" severity="error" message="In der Klassen-Dokumentation fehlt ein -Tag." source="com.puppycrawl.tools.checkstyle.checks.javadoc.WriteTagCheck"/>
+<error line="3" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="3" column="14" severity="error" message="&apos;InvalidBlogOperationException&apos; entspricht nicht dem Muster &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.TypeNameCheck"/>
+<error line="5" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="5" column="42" severity="error" message="Der Parameter s sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="9" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="C:\Users\Deniz\workspace\wsc\src\main\java\de\tum\in\ibis\LoginController.java">
+<error line="4" column="8" severity="error" message="Nicht benutztes import - java.io.PrintWriter." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
+<error line="14" severity="error" message="In der Klassen-Dokumentation fehlt ein -Tag." source="com.puppycrawl.tools.checkstyle.checks.javadoc.WriteTagCheck"/>
+<error line="14" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="14" column="1" severity="error" message="Die Klasse sollte einen Konstruktor definieren." source="com.puppycrawl.tools.checkstyle.checks.coding.MissingCtorCheck"/>
+<error line="14" column="14" severity="error" message="&apos;LoginController&apos; entspricht nicht dem Muster &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.TypeNameCheck"/>
+<error line="15" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="15" column="20" severity="error" message="Variable &apos;ctx&apos; muss private sein." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="16" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="16" column="10" severity="error" message="Variable &apos;blog&apos; muss private sein." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="18" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="20" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="24" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="24" column="27" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="24" column="28" severity="error" message="Der Parameter req sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="24" column="52" severity="error" message="Der Parameter resp sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="24" column="76" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="25" severity="error" message="method def throws bei Einrücktiefe 4 nicht an korrekter Einrücktiefe 8" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="25" column="5" severity="error" message="Anzahl der throws-Anweisungen ist 2 (Obergrenze ist 1)." source="com.puppycrawl.tools.checkstyle.checks.design.ThrowsCountCheck"/>
+<error line="26" column="9" severity="error" message="Dereferenzierung der Instanzvariable &apos;ctx&apos; muss über &quot;this.&quot; erfolgen." source="com.puppycrawl.tools.checkstyle.checks.coding.RequireThisCheck"/>
+<error line="27" column="11" severity="error" message="Nach &apos;if&apos; folgt kein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="27" column="12" severity="error" message="Dereferenzierung der Instanzvariable &apos;ctx&apos; muss über &quot;this.&quot; erfolgen." source="com.puppycrawl.tools.checkstyle.checks.coding.RequireThisCheck"/>
+<error line="27" column="29" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="27" column="30" severity="error" message="Der String &quot;blog&quot; wird in dieser Datei 3 mal benutzt." source="com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"/>
+<error line="27" column="36" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="27" column="46" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="28" column="13" severity="error" message="Dereferenzierung der Instanzvariable &apos;blog&apos; muss über &quot;this.&quot; erfolgen." source="com.puppycrawl.tools.checkstyle.checks.coding.RequireThisCheck"/>
+<error line="29" column="13" severity="error" message="Dereferenzierung der Instanzvariable &apos;blog&apos; muss über &quot;this.&quot; erfolgen." source="com.puppycrawl.tools.checkstyle.checks.coding.RequireThisCheck"/>
+<error line="30" column="13" severity="error" message="Dereferenzierung der Instanzvariable &apos;ctx&apos; muss über &quot;this.&quot; erfolgen." source="com.puppycrawl.tools.checkstyle.checks.coding.RequireThisCheck"/>
+<error line="30" column="30" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="30" column="48" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="32" column="13" severity="error" message="Dereferenzierung der Instanzvariable &apos;blog&apos; muss über &quot;this.&quot; erfolgen." source="com.puppycrawl.tools.checkstyle.checks.coding.RequireThisCheck"/>
+<error line="32" column="27" severity="error" message="Dereferenzierung der Instanzvariable &apos;ctx&apos; muss über &quot;this.&quot; erfolgen." source="com.puppycrawl.tools.checkstyle.checks.coding.RequireThisCheck"/>
+<error line="32" column="44" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="32" column="51" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="35" column="16" severity="error" message="Variable &apos;name&apos; sollte als final deklariert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="35" column="49" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="35" column="56" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="36" column="16" severity="error" message="Variable &apos;password&apos; sollte als final deklariert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="36" column="53" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="36" column="64" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="38" severity="error" message="Kommentare und Code sollten nicht in einer Zeile gemischt werden." source="com.puppycrawl.tools.checkstyle.checks.TrailingCommentCheck"/>
+<error line="38" severity="error" message="Zeile länger als 80 Zeichen" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="40" column="30" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="40" column="45" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="41" column="18" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="41" column="48" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="42" severity="error" message="Kommentare und Code sollten nicht in einer Zeile gemischt werden." source="com.puppycrawl.tools.checkstyle.checks.TrailingCommentCheck"/>
+<error line="43" column="30" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="43" column="61" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="45" severity="error" message="Kommentare und Code sollten nicht in einer Zeile gemischt werden." source="com.puppycrawl.tools.checkstyle.checks.TrailingCommentCheck"/>
+<error line="46" severity="error" message="Zeile länger als 80 Zeichen" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="46" column="31" severity="error" message="Variable &apos;dispatcher&apos; sollte als final deklariert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="46" column="44" severity="error" message="Dereferenzierung der Instanzvariable &apos;ctx&apos; muss über &quot;this.&quot; erfolgen." source="com.puppycrawl.tools.checkstyle.checks.coding.RequireThisCheck"/>
+<error line="46" column="69" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="46" column="82" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="47" column="32" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="47" column="42" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="51" severity="error" message="Kommentare und Code sollten nicht in einer Zeile gemischt werden." source="com.puppycrawl.tools.checkstyle.checks.TrailingCommentCheck"/>
+<error line="52" severity="error" message="Kommentare und Code sollten nicht in einer Zeile gemischt werden." source="com.puppycrawl.tools.checkstyle.checks.TrailingCommentCheck"/>
+<error line="53" column="21" severity="error" message="Variable &apos;session&apos; sollte als final deklariert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="53" column="46" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="53" column="51" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="54" column="30" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="54" column="60" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="56" severity="error" message="Kommentare und Code sollten nicht in einer Zeile gemischt werden." source="com.puppycrawl.tools.checkstyle.checks.TrailingCommentCheck"/>
+<error line="57" column="28" severity="error" message="&apos;ua&apos; verbirgt ein Feld." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="57" column="28" severity="error" message="Variable &apos;ua&apos; sollte als final deklariert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="58" column="32" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="58" column="37" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="58" column="39" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="59" column="34" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="59" column="54" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="59" column="59" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="59" column="61" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="61" column="27" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="61" column="51" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="61" column="74" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="61" column="76" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="64" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="64" column="26" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="64" column="27" severity="error" message="Der Parameter req sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="64" column="51" severity="error" message="Der Parameter resp sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="64" column="75" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="65" severity="error" message="method def throws bei Einrücktiefe 4 nicht an korrekter Einrücktiefe 8" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="65" column="5" severity="error" message="Anzahl der throws-Anweisungen ist 2 (Obergrenze ist 1)." source="com.puppycrawl.tools.checkstyle.checks.design.ThrowsCountCheck"/>
+<error line="66" column="21" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="66" column="31" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+</file>
+<file name="C:\Users\Deniz\workspace\wsc\src\main\java\de\tum\in\ibis\SessionFilter.java">
+<error line="17" severity="error" message="In der Klassen-Dokumentation fehlt ein -Tag." source="com.puppycrawl.tools.checkstyle.checks.javadoc.WriteTagCheck"/>
+<error line="17" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="17" column="1" severity="error" message="Die Klasse sollte einen Konstruktor definieren." source="com.puppycrawl.tools.checkstyle.checks.coding.MissingCtorCheck"/>
+<error line="17" column="14" severity="error" message="&apos;SessionFilter&apos; entspricht nicht dem Muster &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.TypeNameCheck"/>
+<error line="19" severity="error" message="Kommentare und Code sollten nicht in einer Zeile gemischt werden." source="com.puppycrawl.tools.checkstyle.checks.TrailingCommentCheck"/>
+<error line="20" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="20" column="13" severity="error" message="Deklaration von Variablen, Rückgabewerten oder Parametern des Typs &apos;ArrayList&apos; is nicht erlaubt." source="com.puppycrawl.tools.checkstyle.checks.coding.IllegalTypeCheck"/>
+<error line="27" severity="error" message="Zeile länger als 80 Zeichen" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="27" column="26" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="27" column="27" severity="error" message="Der Parameter req sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="27" column="47" severity="error" message="Der Parameter resp sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="27" column="69" severity="error" message="Der Parameter chain sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="27" column="86" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="27" column="89" severity="error" message="Anzahl der throws-Anweisungen ist 2 (Obergrenze ist 1)." source="com.puppycrawl.tools.checkstyle.checks.design.ThrowsCountCheck"/>
+<error line="29" column="28" severity="error" message="Variable &apos;request&apos; sollte als final deklariert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="30" column="29" severity="error" message="Variable &apos;response&apos; sollte als final deklariert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="32" severity="error" message="Kommentare und Code sollten nicht in einer Zeile gemischt werden." source="com.puppycrawl.tools.checkstyle.checks.TrailingCommentCheck"/>
+<error line="33" column="16" severity="error" message="Variable &apos;url&apos; sollte als final deklariert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="35" column="13" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="35" column="36" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="35" column="40" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="35" column="42" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="39" column="13" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="39" column="29" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="40" severity="error" message="Kommentare und Code sollten nicht in einer Zeile gemischt werden." source="com.puppycrawl.tools.checkstyle.checks.TrailingCommentCheck"/>
+<error line="41" severity="error" message="Kommentare und Code sollten nicht in einer Zeile gemischt werden." source="com.puppycrawl.tools.checkstyle.checks.TrailingCommentCheck"/>
+<error line="41" severity="error" message="Zeile länger als 80 Zeichen" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="41" column="25" severity="error" message="Variable &apos;session&apos; sollte als final deklariert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="42" column="17" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="42" column="33" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="43" severity="error" message="Kommentare und Code sollten nicht in einer Zeile gemischt werden." source="com.puppycrawl.tools.checkstyle.checks.TrailingCommentCheck"/>
+<error line="44" severity="error" message="Kommentare und Code sollten nicht in einer Zeile gemischt werden." source="com.puppycrawl.tools.checkstyle.checks.TrailingCommentCheck"/>
+<error line="45" column="39" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="45" column="60" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="49" column="24" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="49" column="34" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="53" column="22" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="53" column="23" severity="error" message="Der Parameter config sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="53" column="42" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="54" severity="error" message="Kommentare und Code sollten nicht in einer Zeile gemischt werden." source="com.puppycrawl.tools.checkstyle.checks.TrailingCommentCheck"/>
+<error line="55" severity="error" message="Kommentare und Code sollten nicht in einer Zeile gemischt werden." source="com.puppycrawl.tools.checkstyle.checks.TrailingCommentCheck"/>
+<error line="56" column="16" severity="error" message="Variable &apos;urls&apos; sollte als final deklariert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="56" column="47" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="56" column="62" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="57" severity="error" message="Kommentare und Code sollten nicht in einer Zeile gemischt werden." source="com.puppycrawl.tools.checkstyle.checks.TrailingCommentCheck"/>
+<error line="57" severity="error" message="Zeile länger als 80 Zeichen" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="57" column="25" severity="error" message="Variable &apos;token&apos; sollte als final deklariert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="61" column="16" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="61" column="38" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="62" column="30" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="62" column="48" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+</file>
+<file name="C:\Users\Deniz\workspace\wsc\src\main\java\de\tum\in\ibis\ShowBlogController.java">
+<error line="4" column="8" severity="error" message="Nicht benutztes import - java.io.PrintWriter." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
+<error line="14" severity="error" message="In der Klassen-Dokumentation fehlt ein -Tag." source="com.puppycrawl.tools.checkstyle.checks.javadoc.WriteTagCheck"/>
+<error line="14" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="14" column="1" severity="error" message="Die Klasse sollte einen Konstruktor definieren." source="com.puppycrawl.tools.checkstyle.checks.coding.MissingCtorCheck"/>
+<error line="14" column="14" severity="error" message="&apos;ShowBlogController&apos; entspricht nicht dem Muster &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.TypeNameCheck"/>
+<error line="15" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="15" column="10" severity="error" message="Variable &apos;blog&apos; muss private sein." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="17" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="20" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="20" column="26" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="20" column="27" severity="error" message="Der Parameter req sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="20" column="51" severity="error" message="Der Parameter resp sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="20" column="75" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="21" severity="error" message="method def throws bei Einrücktiefe 4 nicht an korrekter Einrücktiefe 8" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="21" column="5" severity="error" message="Anzahl der throws-Anweisungen ist 2 (Obergrenze ist 1)." source="com.puppycrawl.tools.checkstyle.checks.design.ThrowsCountCheck"/>
+<error line="22" column="24" severity="error" message="Variable &apos;ctx&apos; sollte als final deklariert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="23" column="11" severity="error" message="Nach &apos;if&apos; folgt kein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="23" column="29" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="23" column="30" severity="error" message="Der String &quot;blog&quot; wird in dieser Datei 3 mal benutzt." source="com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"/>
+<error line="23" column="36" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="23" column="46" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="24" column="13" severity="error" message="Dereferenzierung der Instanzvariable &apos;blog&apos; muss über &quot;this.&quot; erfolgen." source="com.puppycrawl.tools.checkstyle.checks.coding.RequireThisCheck"/>
+<error line="25" column="13" severity="error" message="Dereferenzierung der Instanzvariable &apos;blog&apos; muss über &quot;this.&quot; erfolgen." source="com.puppycrawl.tools.checkstyle.checks.coding.RequireThisCheck"/>
+<error line="26" column="30" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="26" column="48" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="28" column="13" severity="error" message="Dereferenzierung der Instanzvariable &apos;blog&apos; muss über &quot;this.&quot; erfolgen." source="com.puppycrawl.tools.checkstyle.checks.coding.RequireThisCheck"/>
+<error line="28" column="44" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="28" column="51" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="31" severity="error" message="Kommentare und Code sollten nicht in einer Zeile gemischt werden." source="com.puppycrawl.tools.checkstyle.checks.TrailingCommentCheck"/>
+<error line="32" column="21" severity="error" message="Variable &apos;session&apos; sollte als final deklariert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="33" column="17" severity="error" message="Variable &apos;loggedIn&apos; sollte als final deklariert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="33" column="59" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="33" column="70" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="34" column="11" severity="error" message="Nach &apos;if&apos; folgt kein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="34" column="12" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="34" column="21" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="35" severity="error" message="Zeile länger als 80 Zeichen" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="35" column="25" severity="error" message="Variable &apos;blogEntries&apos; sollte als final deklariert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="35" column="53" severity="error" message="Dereferenzierung der Instanzvariable &apos;blog&apos; muss über &quot;this.&quot; erfolgen." source="com.puppycrawl.tools.checkstyle.checks.coding.RequireThisCheck"/>
+<error line="35" column="79" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="35" column="94" severity="error" message="Dereferenzierung der Instanzvariable &apos;blog&apos; muss über &quot;this.&quot; erfolgen." source="com.puppycrawl.tools.checkstyle.checks.coding.RequireThisCheck"/>
+<error line="35" column="119" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="37" severity="error" message="Zeile länger als 80 Zeichen" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="37" column="30" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="37" column="63" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="37" column="82" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="37" column="95" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="39" severity="error" message="Zeile länger als 80 Zeichen" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="39" column="31" severity="error" message="Variable &apos;dispatcher&apos; sollte als final deklariert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="39" column="44" severity="error" message="Methodenaufruf &apos;getServletContext&apos; muss über &quot;this.&quot; erfolgen." source="com.puppycrawl.tools.checkstyle.checks.coding.RequireThisCheck"/>
+<error line="39" column="85" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="39" column="101" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="39" column="113" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="39" column="115" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="47" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="47" column="27" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="47" column="28" severity="error" message="Der Parameter req sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="47" column="52" severity="error" message="Der Parameter resp sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="47" column="76" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="48" severity="error" message="method def throws bei Einrücktiefe 4 nicht an korrekter Einrücktiefe 8" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="48" column="5" severity="error" message="Anzahl der throws-Anweisungen ist 2 (Obergrenze ist 1)." source="com.puppycrawl.tools.checkstyle.checks.design.ThrowsCountCheck"/>
+<error line="49" column="20" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="49" column="30" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+</file>
+<file name="C:\Users\Deniz\workspace\wsc\src\main\java\de\tum\in\ibis\User.java">
+<error line="7" severity="error" message="In der Klassen-Dokumentation fehlt ein -Tag." source="com.puppycrawl.tools.checkstyle.checks.javadoc.WriteTagCheck"/>
+<error line="7" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="7" column="14" severity="error" message="&apos;User&apos; entspricht nicht dem Muster &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.TypeNameCheck"/>
+<error line="8" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="9" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="10" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="10" column="18" severity="error" message="Nach &apos;&lt;&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.GenericWhitespaceCheck"/>
+<error line="10" column="27" severity="error" message="Vor &apos;&gt;&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.GenericWhitespaceCheck"/>
+<error line="12" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="14" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="16" column="13" severity="error" message="Dereferenzierung der Instanzvariable &apos;md5&apos; muss über &quot;this.&quot; erfolgen." source="com.puppycrawl.tools.checkstyle.checks.coding.RequireThisCheck"/>
+<error line="16" column="45" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="16" column="51" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="17" column="18" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="17" column="45" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="18" severity="error" message="Zeile länger als 80 Zeichen" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="18" column="32" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="18" column="79" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="23" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="23" column="17" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="23" column="18" severity="error" message="Der Parameter username sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="23" column="25" severity="error" message="&apos;username&apos; verbirgt ein Feld." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="23" column="35" severity="error" message="Der Parameter password sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="23" column="42" severity="error" message="&apos;password&apos; verbirgt ein Feld." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="23" column="50" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="26" column="38" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="26" column="47" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="29" severity="error" message="Kommentare und Code sollten nicht in einer Zeile gemischt werden." source="com.puppycrawl.tools.checkstyle.checks.TrailingCommentCheck"/>
+<error line="34" severity="error" message="Fehlender @return-Tag." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="34" column="27" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="34" column="28" severity="error" message="Der Parameter s sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="34" column="35" severity="error" message="Erwartete Tag @param für &apos;s&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="34" column="36" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="35" column="22" severity="error" message="Variable &apos;hexResult&apos; sollte als final deklariert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="36" column="13" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="36" column="14" severity="error" message="Dereferenzierung der Instanzvariable &apos;md5&apos; muss über &quot;this.&quot; erfolgen." source="com.puppycrawl.tools.checkstyle.checks.coding.RequireThisCheck"/>
+<error line="36" column="25" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="37" column="13" severity="error" message="Dereferenzierung der Instanzvariable &apos;md5&apos; muss über &quot;this.&quot; erfolgen." source="com.puppycrawl.tools.checkstyle.checks.coding.RequireThisCheck"/>
+<error line="38" column="13" severity="error" message="Dereferenzierung der Instanzvariable &apos;md5&apos; muss über &quot;this.&quot; erfolgen." source="com.puppycrawl.tools.checkstyle.checks.coding.RequireThisCheck"/>
+<error line="38" column="24" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="38" column="37" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="39" column="20" severity="error" message="Variable &apos;hash&apos; sollte als final deklariert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="39" column="27" severity="error" message="Dereferenzierung der Instanzvariable &apos;md5&apos; muss über &quot;this.&quot; erfolgen." source="com.puppycrawl.tools.checkstyle.checks.coding.RequireThisCheck"/>
+<error line="41" column="18" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="41" column="48" severity="error" message="Benutzung von &apos;++&apos; ist nicht erlaubt." source="com.puppycrawl.tools.checkstyle.checks.coding.IllegalTokenCheck"/>
+<error line="41" column="50" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="42" column="34" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="42" column="55" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="42" column="56" severity="error" message="&apos;0xFF&apos; sollte durch eine Konstante definiert sein." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="42" column="70" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="42" column="72" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="48" severity="error" message="Kommentare und Code sollten nicht in einer Zeile gemischt werden." source="com.puppycrawl.tools.checkstyle.checks.TrailingCommentCheck"/>
+<error line="51" column="29" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="51" column="30" severity="error" message="Der Parameter username sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="51" column="37" severity="error" message="&apos;username&apos; verbirgt ein Feld." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="51" column="45" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="55" severity="error" message="Kommentare und Code sollten nicht in einer Zeile gemischt werden." source="com.puppycrawl.tools.checkstyle.checks.TrailingCommentCheck"/>
+<error line="59" column="16" severity="error" message="Dereferenzierung der Instanzvariable &apos;username&apos; muss über &quot;this.&quot; erfolgen." source="com.puppycrawl.tools.checkstyle.checks.coding.RequireThisCheck"/>
+<error line="62" severity="error" message="Kommentare und Code sollten nicht in einer Zeile gemischt werden." source="com.puppycrawl.tools.checkstyle.checks.TrailingCommentCheck"/>
+<error line="66" column="29" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="66" column="30" severity="error" message="Der Parameter password sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="66" column="37" severity="error" message="&apos;password&apos; verbirgt ein Feld." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="66" column="45" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="67" column="38" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="67" column="47" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="70" severity="error" message="Kommentare und Code sollten nicht in einer Zeile gemischt werden." source="com.puppycrawl.tools.checkstyle.checks.TrailingCommentCheck"/>
+<error line="74" column="16" severity="error" message="Dereferenzierung der Instanzvariable &apos;password&apos; muss über &quot;this.&quot; erfolgen." source="com.puppycrawl.tools.checkstyle.checks.coding.RequireThisCheck"/>
+<error line="77" severity="error" message="Kommentare und Code sollten nicht in einer Zeile gemischt werden." source="com.puppycrawl.tools.checkstyle.checks.TrailingCommentCheck"/>
+<error line="83" column="25" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="83" column="26" severity="error" message="Der Parameter role sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="83" column="39" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="84" column="13" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="84" column="35" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="84" column="40" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="84" column="42" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="85" column="28" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="85" column="33" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="89" severity="error" message="Kommentare und Code sollten nicht in einer Zeile gemischt werden." source="com.puppycrawl.tools.checkstyle.checks.TrailingCommentCheck"/>
+<error line="92" column="17" severity="error" message="Nach &apos;&lt;&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.GenericWhitespaceCheck"/>
+<error line="92" column="26" severity="error" message="Vor &apos;&gt;&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.GenericWhitespaceCheck"/>
+<error line="93" column="16" severity="error" message="Dereferenzierung der Instanzvariable &apos;roles&apos; muss über &quot;this.&quot; erfolgen." source="com.puppycrawl.tools.checkstyle.checks.coding.RequireThisCheck"/>
+</file>
+<file name="C:\Users\Deniz\workspace\wsc\src\main\java\de\tum\in\ibis\UserAuthentication.java">
+<error line="7" severity="error" message="Falsche Reihenfolge für import von &apos;de.tum.in.ibis.User&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="7" column="1" severity="error" message="Überflüssiges import aus demselben Package - de.tum.in.ibis.User." source="com.puppycrawl.tools.checkstyle.checks.imports.RedundantImportCheck"/>
+<error line="9" severity="error" message="In der Klassen-Dokumentation fehlt ein -Tag." source="com.puppycrawl.tools.checkstyle.checks.javadoc.WriteTagCheck"/>
+<error line="9" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="9" column="14" severity="error" message="&apos;UserAuthentication&apos; entspricht nicht dem Muster &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.TypeNameCheck"/>
+<error line="10" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="10" column="18" severity="error" message="Nach &apos;&lt;&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.GenericWhitespaceCheck"/>
+<error line="10" column="23" severity="error" message="Vor &apos;&gt;&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.GenericWhitespaceCheck"/>
+<error line="12" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="13" severity="error" message="Kommentare und Code sollten nicht in einer Zeile gemischt werden." source="com.puppycrawl.tools.checkstyle.checks.TrailingCommentCheck"/>
+<error line="17" column="36" severity="error" message="Nach &apos;&lt;&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.GenericWhitespaceCheck"/>
+<error line="17" column="41" severity="error" message="Vor &apos;&gt;&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.GenericWhitespaceCheck"/>
+<error line="19" severity="error" message="Kommentare und Code sollten nicht in einer Zeile gemischt werden." source="com.puppycrawl.tools.checkstyle.checks.TrailingCommentCheck"/>
+<error line="25" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="25" column="28" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="25" column="29" severity="error" message="Der Parameter u sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="25" column="35" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="26" column="13" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="26" column="23" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="29" column="13" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="29" column="36" severity="error" message="String literal expressions should be on the left side of an equals comparison." source="com.puppycrawl.tools.checkstyle.checks.coding.EqualsAvoidNullCheck"/>
+<error line="29" column="37" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="29" column="40" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="29" column="42" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="30" severity="error" message="Zeile länger als 80 Zeichen" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="32" column="13" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="32" column="37" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="32" column="48" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="32" column="51" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="32" column="53" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="32" column="55" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="33" severity="error" message="Zeile länger als 80 Zeichen" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="35" column="31" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="35" column="33" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="38" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="38" column="31" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="38" column="32" severity="error" message="Der Parameter name sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="38" column="43" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="39" column="14" severity="error" message="Variable &apos;user&apos; sollte als final deklariert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="39" column="34" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="39" column="39" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="40" column="13" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="40" column="26" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="41" column="38" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="41" column="43" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="46" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="46" column="36" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="46" column="37" severity="error" message="Der Parameter name sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="46" column="48" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="47" column="18" severity="error" message="Nach &apos;&lt;&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.GenericWhitespaceCheck"/>
+<error line="47" column="23" severity="error" message="Vor &apos;&gt;&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.GenericWhitespaceCheck"/>
+<error line="47" column="26" severity="error" message="Variable &apos;it&apos; sollte als final deklariert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="48" column="16" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="48" column="29" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="49" column="18" severity="error" message="Variable &apos;u&apos; sollte als final deklariert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="50" column="17" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="50" column="41" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="50" column="46" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="50" column="48" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="58" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="58" column="29" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="58" column="30" severity="error" message="Der Parameter user sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="58" column="43" severity="error" message="Der Parameter password sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="58" column="58" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="59" column="18" severity="error" message="Nach &apos;&lt;&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.GenericWhitespaceCheck"/>
+<error line="59" column="23" severity="error" message="Vor &apos;&gt;&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.GenericWhitespaceCheck"/>
+<error line="59" column="26" severity="error" message="Variable &apos;it&apos; sollte als final deklariert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="60" column="16" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="60" column="29" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="61" column="18" severity="error" message="Variable &apos;u&apos; sollte als final deklariert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="62" column="17" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="62" column="41" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="62" column="46" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="62" column="49" severity="error" message="&apos;&amp;&amp;&apos; sollte in einer neuen Zeile stehen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="63" column="41" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="63" column="52" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="63" column="61" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="63" column="63" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="63" column="65" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="71" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="71" column="25" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="71" column="26" severity="error" message="Der Parameter name sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="71" column="37" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="72" column="18" severity="error" message="Nach &apos;&lt;&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.GenericWhitespaceCheck"/>
+<error line="72" column="23" severity="error" message="Vor &apos;&gt;&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.GenericWhitespaceCheck"/>
+<error line="72" column="26" severity="error" message="Variable &apos;it&apos; sollte als final deklariert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="73" column="16" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="73" column="29" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="74" column="18" severity="error" message="Variable &apos;u&apos; sollte als final deklariert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="75" column="17" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="75" column="41" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="75" column="46" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="75" column="48" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="82" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="83" severity="error" message="Kind von method def bei Einrücktiefe 4 nicht an korrekter Einrücktiefe 8" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="83" column="10" severity="error" message="Variable &apos;user0&apos; sollte als final deklariert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="83" column="27" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="83" column="44" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="83" column="60" severity="error" message="Only one statement per line allowed." source="com.puppycrawl.tools.checkstyle.checks.coding.OneStatementPerLineCheck"/>
+<error line="83" column="61" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="83" column="67" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="84" severity="error" message="Kind von method def bei Einrücktiefe 4 nicht an korrekter Einrücktiefe 8" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="84" column="10" severity="error" message="Variable &apos;user1&apos; sollte als final deklariert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="84" column="27" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="84" column="44" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="84" column="60" severity="error" message="Only one statement per line allowed." source="com.puppycrawl.tools.checkstyle.checks.coding.OneStatementPerLineCheck"/>
+<error line="84" column="61" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="84" column="67" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="85" severity="error" message="Kind von method def bei Einrücktiefe 4 nicht an korrekter Einrücktiefe 8" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="85" column="10" severity="error" message="Variable &apos;user2&apos; sollte als final deklariert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="85" column="27" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="85" column="44" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="85" column="60" severity="error" message="Only one statement per line allowed." source="com.puppycrawl.tools.checkstyle.checks.coding.OneStatementPerLineCheck"/>
+<error line="85" column="61" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="85" column="67" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="86" severity="error" message="Kind von method def bei Einrücktiefe 4 nicht an korrekter Einrücktiefe 8" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="86" column="10" severity="error" message="Variable &apos;user3&apos; sollte als final deklariert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="86" column="27" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="86" column="44" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="86" column="60" severity="error" message="Only one statement per line allowed." source="com.puppycrawl.tools.checkstyle.checks.coding.OneStatementPerLineCheck"/>
+<error line="86" column="61" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="86" column="67" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="87" severity="error" message="Kind von method def bei Einrücktiefe 4 nicht an korrekter Einrücktiefe 8" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="87" column="10" severity="error" message="Variable &apos;user4&apos; sollte als final deklariert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="87" column="27" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="87" column="44" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="87" column="60" severity="error" message="Only one statement per line allowed." source="com.puppycrawl.tools.checkstyle.checks.coding.OneStatementPerLineCheck"/>
+<error line="87" column="61" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="87" column="67" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="88" severity="error" message="Kind von method def bei Einrücktiefe 4 nicht an korrekter Einrücktiefe 8" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="88" column="10" severity="error" message="Variable &apos;user5&apos; sollte als final deklariert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="88" column="27" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="88" column="44" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="88" column="60" severity="error" message="Only one statement per line allowed." source="com.puppycrawl.tools.checkstyle.checks.coding.OneStatementPerLineCheck"/>
+<error line="88" column="61" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="88" column="67" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="89" severity="error" message="Kind von method def bei Einrücktiefe 4 nicht an korrekter Einrücktiefe 8" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="89" column="10" severity="error" message="Variable &apos;user6&apos; sollte als final deklariert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="89" column="27" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="89" column="44" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="89" column="60" severity="error" message="Only one statement per line allowed." source="com.puppycrawl.tools.checkstyle.checks.coding.OneStatementPerLineCheck"/>
+<error line="89" column="61" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="89" column="67" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="90" severity="error" message="Kind von method def bei Einrücktiefe 4 nicht an korrekter Einrücktiefe 8" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="90" column="10" severity="error" message="Variable &apos;user7&apos; sollte als final deklariert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="90" column="27" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="90" column="44" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="90" column="60" severity="error" message="Only one statement per line allowed." source="com.puppycrawl.tools.checkstyle.checks.coding.OneStatementPerLineCheck"/>
+<error line="90" column="61" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="90" column="67" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="91" severity="error" message="Kind von method def bei Einrücktiefe 4 nicht an korrekter Einrücktiefe 8" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="91" column="10" severity="error" message="Variable &apos;user8&apos; sollte als final deklariert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="91" column="27" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="91" column="44" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="91" column="60" severity="error" message="Only one statement per line allowed." source="com.puppycrawl.tools.checkstyle.checks.coding.OneStatementPerLineCheck"/>
+<error line="91" column="61" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="91" column="67" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="92" severity="error" message="Kind von method def bei Einrücktiefe 4 nicht an korrekter Einrücktiefe 8" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="92" column="10" severity="error" message="Variable &apos;user9&apos; sollte als final deklariert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="92" column="27" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="92" column="44" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="92" column="60" severity="error" message="Only one statement per line allowed." source="com.puppycrawl.tools.checkstyle.checks.coding.OneStatementPerLineCheck"/>
+<error line="92" column="61" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="92" column="67" severity="error" message="Vor &apos;)&apos; befindet sich ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+</file>
+<file name="C:\Users\Deniz\workspace\wsc\src\main\java\de\tum\in\ibis\UserAuthenticationException.java">
+<error line="3" severity="error" message="In der Klassen-Dokumentation fehlt ein -Tag." source="com.puppycrawl.tools.checkstyle.checks.javadoc.WriteTagCheck"/>
+<error line="3" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="3" column="14" severity="error" message="&apos;UserAuthenticationException&apos; entspricht nicht dem Muster &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.TypeNameCheck"/>
+<error line="5" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="5" column="40" severity="error" message="Der Parameter s sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="9" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="C:\Users\Deniz\workspace\wsc\src\main\java\de\tum\in\ibis\UserRole.java">
+<error line="3" severity="error" message="In der Klassen-Dokumentation fehlt ein -Tag." source="com.puppycrawl.tools.checkstyle.checks.javadoc.WriteTagCheck"/>
+<error line="4" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="5" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="6" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="7" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="8" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+</file>
+<file name="C:\Users\Deniz\workspace\wsc\src\main\java\de\tum\in\ibis\Blog.java">
+</file>
+<file name="C:\Users\Deniz\workspace\wsc\src\main\java\de\tum\in\ibis\BlogEntry.java">
+</file>
+<file name="C:\Users\Deniz\workspace\wsc\src\main\java\de\tum\in\ibis\CreateBlogEntryController.java">
+</file>
+<file name="C:\Users\Deniz\workspace\wsc\src\main\java\de\tum\in\ibis\InvalidBlogOperationException.java">
+</file>
+<file name="C:\Users\Deniz\workspace\wsc\src\main\java\de\tum\in\ibis\LoginController.java">
+</file>
+<file name="C:\Users\Deniz\workspace\wsc\src\main\java\de\tum\in\ibis\SessionFilter.java">
+</file>
+<file name="C:\Users\Deniz\workspace\wsc\src\main\java\de\tum\in\ibis\ShowBlogController.java">
+</file>
+<file name="C:\Users\Deniz\workspace\wsc\src\main\java\de\tum\in\ibis\User.java">
+</file>
+<file name="C:\Users\Deniz\workspace\wsc\src\main\java\de\tum\in\ibis\UserAuthentication.java">
+</file>
+<file name="C:\Users\Deniz\workspace\wsc\src\main\java\de\tum\in\ibis\UserAuthenticationException.java">
+</file>
+<file name="C:\Users\Deniz\workspace\wsc\src\main\java\de\tum\in\ibis\UserRole.java">
+</file>
+</checkstyle>

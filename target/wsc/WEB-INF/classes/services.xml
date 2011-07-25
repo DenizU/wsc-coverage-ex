@@ -1,0 +1,147 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:jaxws="http://cxf.apache.org/jaxws"
+      xmlns:jaxrs="http://cxf.apache.org/jaxrs"
+      xsi:schemaLocation="
+         http://www.springframework.org/schema/beans
+         http://www.springframework.org/schema/beans/spring-beans-2.0.xsd
+         http://cxf.apache.org/jaxws
+         http://cxf.apache.org/schemas/jaxws.xsd
+         http://cxf.apache.org/jaxrs
+         http://cxf.apache.org/schemas/jaxrs.xsd">
+
+  <import resource="classpath:META-INF/cxf/cxf.xml"/>
+  <import resource="classpath:META-INF/cxf/cxf-extension-soap.xml"/>
+  <import resource="classpath:META-INF/cxf/cxf-extension-jaxrs-binding.xml"/>
+  <import resource="classpath:META-INF/cxf/cxf-servlet.xml"/>
+<!-- 
+  <jaxws:endpoint id="customerDb"
+      implementor="de.tum.in.ibis."
+      address="customerDb"/>
+ -->
+ 
+ <bean id="viewResolver"
+    class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+    <property name="viewClass" value="org.springframework.web.servlet.view.JstlView" />
+    <property name="prefix" value="/" />
+    <property name="suffix" value=".jsp" />
+</bean>
+
+<bean id="messageSource"
+    class="org.springframework.context.support.ResourceBundleMessageSource">
+    <property name="basenames">
+        <list>
+            <value>messages</value>
+        </list>
+    </property>
+</bean>
+
+<bean id="dataSource" destroy-method="close"
+      class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+    <property name="driverClassName" value="com.mysql.jdbc.Driver" />
+    <property name="url" value="jdbc:mysql://192.168.201.100:3306/db_user2" />
+    <property name="username" value="user2" />
+    <property name="password" value="65Upg" />
+</bean>
+
+<!-- use lan-sql server for testing during vpn downtime -->
+<bean id="localdataSource" destroy-method="close"
+    class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+    <property name="driverClassName" value="com.mysql.jdbc.Driver" />
+    <property name="url" value="jdbc:mysql://192.168.1.21:3306/db_user2" />
+    <property name="username" value="user2" />
+    <property name="password" value="65Upg" />
+</bean>
+
+<bean id="CustomerDao" class="de.tum.in.ibis.app.dao.CustomerDao">
+    <property name="dataSource" ref="dataSource" />
+</bean>
+
+<bean id="CustomerAddressDao" class="de.tum.in.ibis.app.dao.CustomerAddressDao">
+    <property name="dataSource" ref="dataSource" />
+</bean>
+
+<bean id="XmlCustomerDao" class="de.tum.in.ibis.app.dao.XmlCustomerDao">
+    <property name="appCtxProvider" ref="ApplicationContextProvider" />
+    <property name="srvCtxProvider" ref="ServletContextProvider" />
+</bean>
+
+<bean id="TxManager"
+    class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+    <property name="dataSource" ref="dataSource" />
+</bean>
+
+<bean id="ApplicationContextProvider" class="de.tum.in.ibis.app.bean.ApplicationContextProvider">
+</bean>
+
+<bean id="ServletContextProvider" class="de.tum.in.ibis.app.bean.ServletContextProvider">
+</bean>
+
+
+<!-- #### Web Service bean for dependency injection #### -->
+<bean id="webService" class="de.tum.ibis.customerdb.ServiceImpl">
+    <property name="customerDao" ref="CustomerDao" />
+    <property name="customerAddressDao" ref="CustomerAddressDao" />
+    <property name="xmlCustomerDao" ref="XmlCustomerDao" />
+</bean>
+
+<!-- #### Web Service - publish endpoint #### -->
+<jaxws:endpoint id="customerDb"
+    implementor="#webService"
+    address="/customerDb" />
+
+
+<bean name="/showCustomers.app" class="de.tum.in.ibis.app.controller.ShowCustomersController">
+    <property name="formView" value="showCustomers" />
+    <property name="customerDao" ref="CustomerDao" />
+    <property name="customerAddressDao" ref="CustomerAddressDao" />
+</bean>
+
+<bean name="/searchCustomer.app" class="de.tum.in.ibis.app.controller.SearchCustomerController">
+    <property name="customerDao" ref="CustomerDao" />
+    <property name="customerAddressDao" ref="CustomerAddressDao" />
+</bean>
+
+<bean name="/newCustomer.app" class="de.tum.in.ibis.app.controller.NewCustomerController" >
+    <property name="commandClass" value="de.tum.in.ibis.app.command.NewCustomerForm" />
+    <property name="formView" value="newCustomer" />
+    <property name="validator">
+        <bean class="de.tum.in.ibis.app.validator.NewCustomerValidator" />
+    </property>
+</bean>
+
+<bean name="/createCustomer.app" class="de.tum.in.ibis.app.controller.CreateCustomerController">
+    
+    <property name="formView" value="createCustomer" />
+    <property name="validator">
+        <bean class="de.tum.in.ibis.app.validator.CreateCustomerValidator" />
+    </property>
+    <property name="customerDao" ref="CustomerDao" />
+    <property name="customerAddressDao" ref="CustomerAddressDao" />
+</bean>
+
+<bean name="/deleteCustomer.app" class="de.tum.in.ibis.app.controller.DeleteCustomerController">
+    <property name="commandClass" value="de.tum.in.ibis.app.command.DeleteCustomerForm" />
+    <property name="formView" value="deleteCustomer" />
+    <property name="successView" value="showCustomers" />
+    
+    <property name="customerDao" ref="CustomerDao" />
+    <property name="customerAddressDao" ref="CustomerAddressDao" />
+    <property name="transactionManager" ref="TxManager" />
+</bean>
+
+<bean name="/editCustomer.app" class="de.tum.in.ibis.app.controller.EditCustomerController">
+    <property name="formView" value="editCustomer" />
+    <property name="validator">
+        <bean class="de.tum.in.ibis.app.validator.EditCustomerValidator" />
+    </property>
+    <property name="customerDao" ref="CustomerDao" />
+    <property name="customerAddressDao" ref="CustomerAddressDao" />
+    <property name="transactionManager" ref="TxManager" />
+</bean>
+
+<bean name="/showXmlCustomers.app" class="de.tum.in.ibis.app.controller.ShowXmlCustomers">
+    <property name="xmlCustomerDao" ref="XmlCustomerDao" />
+</bean>
+ 
+</beans>

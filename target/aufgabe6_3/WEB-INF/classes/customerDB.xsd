@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<schema
+    xmlns="http://www.w3.org/2001/XMLSchema"
+    targetNamespace="http://dss.in.tum.de"
+    xmlns:tns="http://dss.in.tum.de"
+    elementFormDefault="qualified">
+    
+    
+    <element name="customers">
+        <complexType>
+            <sequence>
+                <element name="customer" type="tns:customer" minOccurs="0" maxOccurs="unbounded" />
+            </sequence>
+        </complexType>
+    </element>
+
+    <complexType name="customer">
+         <sequence>
+             <element name="id" type="integer" />
+             <element name="surname" type="string" />
+             <element name="name" type="string" />
+             <element name="phone" type="string" />
+             <element name="email" type="string" minOccurs="0" maxOccurs="1" />
+             <element name="addresses">
+                <complexType>
+                    <sequence>
+                        <element name="primary" type="tns:address" /> <!-- exactly 1 primary, else add maxOccurs -->
+                        <element name="address" type="tns:address" minOccurs="0" maxOccurs="unbounded" />
+                    </sequence>
+                </complexType>
+                </element>
+         </sequence>
+    </complexType>
+    
+    <complexType name="address">
+            <sequence>
+                <element name="id" type="integer" />
+                <element name="street" type="string" />
+                <element name="number" type="string" />
+                <element name="postal" type="string" />
+                <element name="city" type="string" />
+            </sequence>
+    </complexType>
+    
+</schema>

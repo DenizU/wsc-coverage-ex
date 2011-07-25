@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+    xmlns:tns="http://ibis.tum.de/customerDb"
+    xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:xsd1="http://dss.in.tum.de"
+    targetNamespace="http://ibis.tum.de/customerDb">
+
+
+
+    <!-- TYPES -->
+    <wsdl:types>
+    
+    <xsd:schema xmlns="http://www.w3.org/2000/10/XMLSchema"
+            targetNamespace="http://dss.in.tum.de">
+
+
+            <xsd:complexType name="customer">
+                <xsd:sequence>
+                    <xsd:element name="id" type="xsd:integer" />
+                    <xsd:element name="surname" type="xsd:string" />
+                    <xsd:element name="name" type="xsd:string" />
+                    <xsd:element name="phone" type="xsd:string" />
+                    <xsd:element name="email" type="xsd:string" minOccurs="0"
+                        maxOccurs="1" />
+                    <xsd:element name="addresses">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element name="primary">
+                                    <xsd:complexType>
+                                        <xsd:sequence>
+                                            <xsd:element name="id" type="xsd:integer" />
+                                            <xsd:element name="street" type="xsd:string" />
+                                            <xsd:element name="number" type="xsd:string" />
+                                            <xsd:element name="postal" type="xsd:string" />
+                                            <xsd:element name="city" type="xsd:string" />
+                                        </xsd:sequence>
+                                    </xsd:complexType>
+                                </xsd:element>
+                                <xsd:element name="address" minOccurs="0" maxOccurs="unbounded">
+                                    <xsd:complexType>
+                                        <xsd:sequence>
+                                            <xsd:element name="id" type="xsd:integer" />
+                                            <xsd:element name="street" type="xsd:string" />
+                                            <xsd:element name="number" type="xsd:string" />
+                                            <xsd:element name="postal" type="xsd:string" />
+                                            <xsd:element name="city" type="xsd:string" />
+                                        </xsd:sequence>
+                                    </xsd:complexType>
+                                </xsd:element>
+                            </xsd:sequence>
+                        </xsd:complexType>
+                    </xsd:element>
+                </xsd:sequence>
+            </xsd:complexType>
+        </xsd:schema>
+    
+    <xsd:schema xmlns="http://www.w3.org/2000/10/XMLSchema"
+            targetNamespace="http://dss.in.tum.de">
+
+            <xsd:complexType name="customers">
+                <xsd:sequence>
+                    <xsd:element name="customer" minOccurs="0" maxOccurs="unbounded">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element name="id" type="xsd:integer" />
+                                <xsd:element name="surname" type="xsd:string" />
+                                <xsd:element name="name" type="xsd:string" />
+                                <xsd:element name="phone" type="xsd:string" />
+                                <xsd:element name="email" type="xsd:string"
+                                    minOccurs="0" maxOccurs="1" />
+                                <xsd:element name="addresses">
+                                    <xsd:complexType>
+                                        <xsd:sequence>
+                                            <xsd:element name="primary">
+                                                <xsd:complexType>
+                                                    <xsd:sequence>
+                                                        <xsd:element name="id" type="xsd:integer" />
+                                                        <xsd:element name="street" type="xsd:string" />
+                                                        <xsd:element name="number" type="xsd:string" />
+                                                        <xsd:element name="postal" type="xsd:string" />
+                                                        <xsd:element name="city" type="xsd:string" />
+                                                    </xsd:sequence>
+                                                </xsd:complexType>
+                                            </xsd:element>
+                                            <xsd:element name="address" minOccurs="0" maxOccurs="unbounded">
+                                                <xsd:complexType>
+                                                    <xsd:sequence>
+                                                        <xsd:element name="id" type="xsd:integer" />
+                                                        <xsd:element name="street" type="xsd:string" />
+                                                        <xsd:element name="number" type="xsd:string" />
+                                                        <xsd:element name="postal" type="xsd:string" />
+                                                        <xsd:element name="city" type="xsd:string" />
+                                                    </xsd:sequence>
+                                                </xsd:complexType>
+                                            </xsd:element>
+                                        </xsd:sequence>
+                                    </xsd:complexType>
+                                </xsd:element>
+                            </xsd:sequence>
+                        </xsd:complexType>
+                    </xsd:element>
+                </xsd:sequence>
+            </xsd:complexType>
+        </xsd:schema>
+        
+    </wsdl:types>
+
+    <!-- MESSAGES for CRUD functionality -->
+    <wsdl:message name="getCustomers">
+    </wsdl:message>
+    <wsdl:message name="getCustomersResponse">
+        <wsdl:part name="customers_result" type="xsd1:customers"></wsdl:part>
+    </wsdl:message>
+
+    <wsdl:message name="getCustomer">
+        <wsdl:part name="get_id" type="xsd:int"></wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="getCustomerResponse">
+       <wsdl:part name="get_result" type="xsd1:customer"></wsdl:part>
+    </wsdl:message>
+
+    <wsdl:message name="createCustomer">
+        <wsdl:part name="create_customer" type="xsd1:customer"></wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="createCustomerResponse">
+        <wsdl:part name="create_succes" type="xsd:boolean"></wsdl:part>
+    </wsdl:message>
+
+    <wsdl:message name="updateCustomer">
+        <wsdl:part name="update_customer" type="xsd1:customer"></wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="updateCustomerResponse">
+       <wsdl:part name="update_success" type="xsd:boolean"></wsdl:part>
+    </wsdl:message>
+
+    <wsdl:message name="deleteCustomer">
+       <wsdl:part name="delete_id" type="xsd:long"></wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="deleteCustomerResponse">
+       <wsdl:part name="delete_success" type="xsd:boolean"></wsdl:part>
+    </wsdl:message>
+
+    <!-- PORTS -->
+    <wsdl:portType name="customerDb">
+        <!-- get all customers -->
+        <wsdl:operation name="getCustomers">
+            <wsdl:input message="tns:getCustomers" />
+            <wsdl:output message="tns:getCustomersResponse" />
+        </wsdl:operation>
+        
+        <!-- get single customer by its id -->
+        <wsdl:operation name="getCustomer">
+            <wsdl:input message="tns:getCustomer" />
+            <wsdl:output message="tns:getCustomerResponse" />
+        </wsdl:operation>
+        
+        <!-- create customer -->
+        <wsdl:operation name="createCustomer">
+            <wsdl:input message="tns:createCustomer" />
+            <wsdl:output message="tns:createCustomerResponse" />
+        </wsdl:operation>
+        
+        <!-- update customers -->
+        <wsdl:operation name="updateCustomer">
+            <wsdl:input message="tns:updateCustomer" />
+            <wsdl:output message="tns:updateCustomerResponse" />
+        </wsdl:operation>
+        
+        <!-- delete customer -->
+        <wsdl:operation name="deleteCustomer">
+            <wsdl:input message="tns:deleteCustomer" />
+            <wsdl:output message="tns:deleteCustomerResponse" />
+        </wsdl:operation>
+        
+    </wsdl:portType>
+
+    <!-- BINDINGS -->
+    <wsdl:binding name="customerDbSOAP" type="tns:customerDb">
+        <soap:binding style="rpc"
+            transport="http://schemas.xmlsoap.org/soap/http" />
+        <wsdl:operation name="getCustomers">
+            <wsdl:input>
+                <soap:body use="literal" />
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal" />
+            </wsdl:output>
+        </wsdl:operation>
+        
+        <wsdl:operation name="getCustomer">
+            <wsdl:input>
+                <soap:body use="literal" />
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal" />
+            </wsdl:output>
+        </wsdl:operation>
+        
+        <wsdl:operation name="createCustomer">
+            <wsdl:input>
+                <soap:body use="literal" />
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal" />
+            </wsdl:output>
+        </wsdl:operation>
+        
+        <wsdl:operation name="updateCustomer">
+            <wsdl:input>
+                <soap:body use="literal" />
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal" />
+            </wsdl:output>
+        </wsdl:operation>
+        
+        <wsdl:operation name="deleteCustomer">
+            <wsdl:input>
+                <soap:body use="literal" />
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal" />
+            </wsdl:output>
+        </wsdl:operation>
+        
+    </wsdl:binding>
+
+    <!-- SERVICES -->
+    <wsdl:service name="serviceCustomers">
+        <wsdl:port name="pnCustomers" binding="tns:customerDbSOAP">
+             <soap:address location="http://localhost:8080/wsc/services/customerDB"/> 
+           <!-- <soap:address location="http://localhost:10020/aufgabe6_2/services/customerDB" /> -->
+        </wsdl:port>
+    </wsdl:service>
+
+</wsdl:definitions>

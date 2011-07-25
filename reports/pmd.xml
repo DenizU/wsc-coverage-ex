@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.2.5" timestamp="2011-07-16T21:27:19.281">
+<file name="de\tum\in\ibis\LoginController.java">
+<violation beginline="54" endline="54" begincolumn="43" endcolumn="59" rule="BooleanInstantiation" ruleset="Basic Rules" package="de.tum.in.ibis" class="LoginController" method="doPost" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#BooleanInstantiation" priority="2">
+Avoid instantiating Boolean objects; reference Boolean.TRUE or Boolean.FALSE or call Boolean.valueOf() instead.
+</violation>
+</file>
+</pmd>
