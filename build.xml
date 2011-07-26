@@ -136,7 +136,7 @@
         </pmd>
     </target>
     
-    <target name="main" depends="docs, checkstyle, pmd, coverage-report">
+    <target name="main" depends="docs, findbugs, checkstyle, pmd, coverage-report">
         <description>Main target</description>
     </target>
 </project>
