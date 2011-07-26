@@ -100,7 +100,7 @@
 	</target>
 	
 	<target name="coverage-report" depends="cover-test">
-		<cobertura-report srcdir="${src.dir}" destdir="${reports.dir}/cobertura" />
+		<cobertura-report format="xml" srcdir="${src.dir}" destdir="${reports.dir}/cobertura" />
 	</target>
     
     <target name="docs" depends="compile">
