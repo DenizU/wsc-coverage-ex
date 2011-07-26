@@ -116,7 +116,7 @@
                   output="xml"
                   outputFile="${reports.dir}/findbugs.xml" >
             <sourcepath path="${src.dir}" />
-            <class location="${dist.dir}/agent.jar" />
+            <class location="${build.dir}" />
         </findbugs>
     </target>
     
